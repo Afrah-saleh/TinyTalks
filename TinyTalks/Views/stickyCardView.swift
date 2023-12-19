@@ -70,17 +70,24 @@ struct stickyCardView: View {
 // MARK: - NavigationStack END
         // MARK: - The code of the rest card gose here!
 // MARK: - Tis code is just for testing
-        List {
-                       ForEach(["AAA", "BBB"], id: \.self) {
-                           Section($0) {
-                               ForEach(1 ..< 20) {
-                                   Text("\($0)")
-                               }
-                           }
-                       }
-                   }.listStyle(.plain)
-                  .padding(16)
-        
+//        List {
+//                       ForEach(["AAA", "BBB"], id: \.self) {
+//                           Section($0) {
+//                               ForEach(1 ..< 20) {
+//                                   Text("\($0)")
+//                               }
+//                           }
+//                       }
+//                   }.listStyle(.plain)
+//                  .padding(16)
+//        
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack{
+                CardsView()
+                ActivityCardsView()
+                FoodCardsView()
+            }
+        }
 // MARK: - the code above code is just for testing
         
         

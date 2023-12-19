@@ -18,8 +18,6 @@ struct Main_View: View {
                     ActivityCardsView()
                     FoodCardsView()
                 }
-                
-                
             }
         }
     }

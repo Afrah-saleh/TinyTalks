@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D2D8F62B31752E0061FF7E /* stickyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2D8F52B31752E0061FF7E /* stickyCardView.swift */; };
 		944028BC2B30349D00D8F318 /* TinyTalksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944028BB2B30349D00D8F318 /* TinyTalksApp.swift */; };
 		944028BE2B30349D00D8F318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944028BD2B30349D00D8F318 /* ContentView.swift */; };
 		944028C02B30349F00D8F318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944028BF2B30349F00D8F318 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D2D8F52B31752E0061FF7E /* stickyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickyCardView.swift; sourceTree = "<group>"; };
 		944028B82B30349D00D8F318 /* TinyTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944028BB2B30349D00D8F318 /* TinyTalksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyTalksApp.swift; sourceTree = "<group>"; };
 		944028BD2B30349D00D8F318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				944028E42B30AD5B00D8F318 /* Main_View.swift */,
+				22D2D8F52B31752E0061FF7E /* stickyCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				944028BE2B30349D00D8F318 /* ContentView.swift in Sources */,
 				944028D12B30490A00D8F318 /* CardsView.swift in Sources */,
 				944028E52B30AD5B00D8F318 /* Main_View.swift in Sources */,
+				22D2D8F62B31752E0061FF7E /* stickyCardView.swift in Sources */,
 				944028D72B30949900D8F318 /* ActivityCards.swift in Sources */,
 				944028BC2B30349D00D8F318 /* TinyTalksApp.swift in Sources */,
 				944028CF2B3045D800D8F318 /* Cards.swift in Sources */,

@@ -9,11 +9,15 @@ import SwiftUI
 
 struct Main_View: View {
     var body: some View {
+        
         ZStack{
                      Color("Back")
                     .ignoresSafeArea()
+            
             ScrollView(.vertical, showsIndicators: false) {
+                
                 VStack{
+              
                     CardsView()
                     ActivityCardsView()
                     FoodCardsView()

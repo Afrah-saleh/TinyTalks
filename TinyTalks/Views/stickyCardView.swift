@@ -9,9 +9,15 @@ import SwiftUI
 
 struct stickyCardView: View {
     var body: some View {
-// MARK: - NavigationStack START
-        NavigationStack {
+        // MARK: - NavigationStack START
+        ZStack{
+            Color("Back")
+                .ignoresSafeArea(.all)
+            VStack{
+                NavigationStack {
                     ZStack{
+                        Color("Back")
+                            .ignoresSafeArea(.all)
                         Rectangle()
                             .frame(width: 760,height:400)
                             .foregroundColor(.darkBlue)
@@ -34,73 +40,50 @@ struct stickyCardView: View {
                                 .foregroundColor(.beigCard)
                                 .cornerRadius(13)
                         }.padding(.horizontal, 28)
-
- // MARK: - the sound Button START
-
-                            Button{
-                                print("sound played")
-                            }
-                        label:{
-                            ZStack{
-                                Circle()
-                                    .frame(width: 80,height:80)
-                                    .foregroundColor(.lavander)
-                                Image(systemName: "speaker.wave.2.fill")
-                                    .resizable()
-                                    .frame(width: 44,height:44)
-                                    .foregroundColor(.beigCard)
-                            }.offset(y:200)
-                            }.accessibilityHint("Play the sound of the sentence")
-                                 //.navigationTitle("TinyTalks")
+                        
+                        // MARK: - the sound Button START
+                        Button{
+                            print("sound played")
+                        }
+                    label:{
+                        ZStack{
+                            Circle()
+                                .frame(width: 80,height:80)
+                                .foregroundColor(.lavander)
+                            Image(systemName: "speaker.wave.2.fill")
+                                .resizable()
+                                .frame(width: 44,height:44)
+                                .foregroundColor(.beigCard)
+                        }.offset(y:200)
+                    }.accessibilityHint("Play the sound of the sentence")
                     }//End of zstack for the top cards
-// MARK: - the sound Button END
+                    // MARK: - the sound Button END
                     
                     .toolbar {
-                               ToolbarItem(placement: .navigationBarTrailing) {
-                                   Button{
-                                       print("How to use the app tapped!")
-                                   } label: {
-                                       Image(systemName:"questionmark.circle")
-                                           .foregroundColor(.lavander)
-                                           .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                                   }.accessibilityHint("Button for description how to use the app")
-                               }
-                           }
-              }.padding()
-// MARK: - NavigationStack END
-        // MARK: - The code of the rest card gose here!
-// MARK: - Tis code is just for testing
-//        List {
-//                       ForEach(["AAA", "BBB"], id: \.self) {
-//                           Section($0) {
-//                               ForEach(1 ..< 20) {
-//                                   Text("\($0)")
-//                               }
-//                           }
-//                       }
-//                   }.listStyle(.plain)
-//                  .padding(16)
-//        
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack{
-                CardsView()
-                ActivityCardsView()
-                FoodCardsView()
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Button{
+                                print("How to use the app tapped!")
+                            } label: {
+                                Image(systemName:"questionmark.circle")
+                                    .foregroundColor(.lavander)
+                                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                            }.accessibilityHint("Button for description how to use the app")
+                        }
+                    }
+                }
+                // MARK: - NavigationStack END
+                // MARK: - The code of the rest card gose here!
+                // MARK: - Tis code is just for testing
+                ScrollView(.vertical, showsIndicators: false) {
+                    CardsView()
+                    ActivityCardsView()
+                    FoodCardsView()
+                }
+                // MARK: - the code above code is just for testing
             }
         }
-// MARK: - the code above code is just for testing
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
 }
-
 #Preview {
     stickyCardView()
 }

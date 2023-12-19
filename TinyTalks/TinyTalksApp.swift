@@ -11,7 +11,8 @@ import SwiftUI
 struct TinyTalksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            stickyCardView()
         }
     }
 }

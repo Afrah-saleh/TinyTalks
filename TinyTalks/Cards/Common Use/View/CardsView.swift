@@ -15,7 +15,7 @@ struct CardsView: View {
             .font(.system(size: 42))
             .frame(maxWidth: .infinity, alignment: .leading)
             //.padding(.all)
-            .padding([.leading, .trailing, .top])
+            .padding([.leading, .trailing])
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: -20) {
                 ForEach(Cards.Card) { cards in  //to call all data saved in Cards

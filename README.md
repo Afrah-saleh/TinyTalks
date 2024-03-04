@@ -1,6 +1,7 @@
 # TinyTalks
 
-TinyTalks is an innovative iPad app designed to help children with Autism Spectrum Disorder (ASD) enhance their language and communication abilities. Utilizing simple drag-and-drop technology, TinyTalks enables children to construct and vocalize sentences in an intuitive and engaging way.
+TinyTalks is an innovative iPad app designed to help children with Autism Spectrum Disorder (ASD) enhance their language and communication abilities. 
+Utilizing simple drag-and-drop technology, TinyTalks enables children to construct and vocalize sentences in an intuitive and engaging way.
 
 ## Key Benefits
 
@@ -23,6 +24,11 @@ TinyTalks is built on a user-centric design philosophy that prioritizes simplici
 TinyTalks has the potential to make a significant impact on the lives of children with ASD by bridging the communication gap. As a portable solution, its accessibility ensures that language development can take place anywhere, at any time.
 
 TinyTalks empowers children who struggle to express themselves, facilitating communication tailored to their needs. Every interaction with the app, each tap, and drag-and-drop action, brings them one step closer to clearer communication and increased confidence.
+
+## Screenshots:
+<img width="500" alt="Screenshot 1445-08-23 at 7 10 39 PM" src="https://github.com/Afrah-saleh/TinyTalks/assets/62013951/82e4674b-8420-4d8e-b4cd-8462635de22f">
+
+<img width="500" alt="Screenshot 1445-08-23 at 7 10 26 PM" src="https://github.com/Afrah-saleh/TinyTalks/assets/62013951/ded4456b-8407-4270-869f-1225701e8edc">
 
 ---
 
